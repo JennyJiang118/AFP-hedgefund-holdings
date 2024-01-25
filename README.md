@@ -6,7 +6,23 @@ enddate = '12/30/2022'
 
 Universe: all the stocks between the begin and end dates that were included in S&P500, in total of 770 names
 
-### price
+### price, volume, GICS
+
+As in daily
+
+- permno
+- date
+- prc: close price
+- vol: volume
+- openprc: open price
+- askhi: high price
+- bidlo: low price
+- ret
+- shrout: shares outstanding
+- Yyyy-mm
+- gics: in code format
+- comnam: company name
+- ticker
 
 ### holdings
 As in quaterly
