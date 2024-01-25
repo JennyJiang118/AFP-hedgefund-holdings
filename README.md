@@ -4,6 +4,8 @@
 begdate = '01/01/2015'
 enddate = '12/30/2022'
 
+Universe: all the stocks between the begin and end dates that were included in S&P500, in total of 770 names
+
 ### price
 
 ### holdings
