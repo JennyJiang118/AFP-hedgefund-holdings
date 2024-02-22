@@ -56,5 +56,5 @@ holdings_stk = holdings_stk[['date', 'permno', 'weight', 'weight_diff', 'ret']]
 
 # Data to be used in machine learning
 data = pd.merge(holdings_stk, factors_quarterly, on=['permno', 'date'], how='left')
-data.to_csv('../data/ML_data_raw.csv')
-data.dropna().to_csv('../data/ML_data_clean.csv')
+data.to_csv('../data/ML_data_raw.csv', index=False)
+data.dropna().to_csv('../data/ML_data_clean.csv', index=False)
